@@ -65,33 +65,3 @@ public class ServDev {
 	        }
 		 
 	}}
-/*public static class DiskFileExplorer {
-    private String initialpath = "C:\\Users\\teste\\Desktop\\PJA";
-    private Boolean recursivePath = false;
- 
-  //@param path chemin du répertoire
-  //@param subFolder analyse des sous dossiers
- 
-    public DiskFileExplorer(String path, Boolean subFolder) {
-        super();
-        this.initialpath = path;
-        this.recursivePath = subFolder;
-    }
-    public void list() {
-        this.listDirectory(this.initialpath);
-    }
-    private void listDirectory(String dir) {
-        File file = new File(dir);
-        File[] files = file.listFiles();
-        if (files != null) {
-            for (int i = 0; i < files.length; i++) {
-                if (files[i].isDirectory() == true) {
-                    System.out.println("Dossier: " + files[i].getAbsolutePath());
-                } else {
-                    System.out.println("  Fichier: " + files[i].getName());
-                }
-                if (files[i].isDirectory() == true && this.recursivePath == true) {
-                    this.listDirectory(files[i].getAbsolutePath());
-                }       }
-        }    }   }*/
-	
